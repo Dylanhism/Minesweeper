@@ -11,6 +11,7 @@ done = False
 
 #Colours here#
 WHITE = (255, 255, 255)
+GREY = (128, 128, 128)
 BLACK = (000, 000, 000)
 BLUE = (000, 102, 204)
 RED = (204, 000, 000)
@@ -18,5 +19,10 @@ RED = (204, 000, 000)
 #Fills screen white#
 screen.fill(WHITE)
 pygame.display.update()
+fontTitle = pygame.font.SysFont("Arial", 30)
 
-def 
+def menu():
+  screen.fill(WHITE)
+  pygame.display.update()
+  menuText = fontTitle.render("Play" True, BLACK)
+  
