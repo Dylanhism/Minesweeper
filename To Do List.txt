@@ -1,0 +1,20 @@
+NEED:
+-Title Screen menu(play, difficulties, how to play, quit, mute sound)
+-How to play
+-Transition to different difficulties
+-While loop for putting 'blocks' into array
+-Asigning bombs into certain blocks at random
+-Algorithm for determining number to be displayed(bombs counted beside)
+-Images 3 sizes (1-8 numbers, unclicked, clicked(blank space), Flag, question mark, bomb, happy face(reset button))
+-
+-
+-
+-
+
+WANT:
+-Sounds
+-Music
+-
+-
+-Pepe as happy face restart
+-More Memes
