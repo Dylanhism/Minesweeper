@@ -24,6 +24,8 @@ fontTitle = pygame.font.SysFont("Arial", 30)
 def menu():
     borderX = 10
     borderY = 75
+    r = 0
+    t = 0
     screen.fill(RED)
     pygame.display.update()
     menuText = fontTitle.render("Play", True, BLACK)
@@ -31,18 +33,38 @@ def menu():
     test = pygame.image.load("EasyBomb.png")
     x = 0 + borderX
     y = 0 + borderY
-    while y < 793 - borderY:
-        while x < 730 + borderX:        
+    
+def easy():
+    bombCount = 16
+    easyDifNumY = 8
+    easyDifNumX = 8
+    while t < easyDifNumY:
+        while r < easyDifNumX:
             screen.blit(test,(x,y))                
-            pygame.display.update() 
+            pygame.display.update()
+            r = r + 1
             x = x + 91
+        easyDifNumX = easyDifNumX + 8    
+        t = t + 1
         y = y + 91
-        x = borderX
-#hardDifNumY = 12
-#hardDifNumX = 12
-#while t < hardDifNumY:
-#    while r < hardDifNumX:
-#        array.append(pepe(r))       
-#    hardDifNumX = hardDifNumX + 12    
-#    t = t + 1
+def meduim():
+    bombCount = 25
+    medDifNumY = 10
+    easyDifNumX = 10
+    while t < medDifNumY:
+        while r < medDifNumX:
+            array.append(pepe(r)) 
+            r = r + 1
+        medDifNumX = medDifNumX + 10    
+        t = t + 1
+        medDifNumY = 10
+def hard():
+    bombCount = 36
+    hardDifNumX = 10
+    while t < hardDifNumY:
+        while r < hardDifNumX:
+            array.append(pepe(r))
+            r = r + 1
+        hardDifNumX = hardDifNumX + 10    
+        t = t + 1
 menu()
