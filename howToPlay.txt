@@ -1,0 +1,10 @@
+All squares can either be blank, 1, 2, 3, 4, 5, 6, 7, 8 or unknown.
+Each square has a chance of being a bomb, the numbers that appear in the game
+-indicate how many bombs are in the 3 by 3 (8 Block) square around it.
+If you left click on one of the bombs, you explode and you lose the game,
+-if you right click on one of the bombs you flag it and can no longer right click on
+-it, but you can left click it again to turn it back to an unknown.
+Each game will start out with each square having a 1/3, 1/4 or 1/5
+-chance of being a bomb depending the difficulty chosen at the main menu 
+(Includes Easy, Medium and Hard).
+You win the game by flagging all the bombs and clearing all the spaces.
